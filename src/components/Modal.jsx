@@ -44,7 +44,6 @@ class Modal extends Component {
                         }
                     }}
                 </ProductConsumer>
-                <h1>hello from modal</h1>
             </div>
         );
     }
