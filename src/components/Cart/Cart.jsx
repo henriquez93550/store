@@ -24,8 +24,7 @@ class Cart extends Component {
                                 <CartTotals value={value} />
                                 </React.Fragment>
                             );
-                        }
-                        else {
+                        } else {
                            return <EmptyCart />;
                         }
                     }}

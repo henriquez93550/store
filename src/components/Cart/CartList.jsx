@@ -9,8 +9,6 @@ export default function CartList({value}) {
                 {cart.map(item => {
                     return <CartItem key={item.id} item={item} value={value} />
                 })}
-                <p>hello from CartList</p>
-                
             </div>
         );
     }
